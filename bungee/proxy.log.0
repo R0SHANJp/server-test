@@ -1,0 +1,1024 @@
+23:21:40 [INFO] Using mbed TLS based native cipher.
+23:21:40 [INFO] Using zlib based native compressor.
+23:21:40 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:4886c4b:1881
+23:21:40 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+23:21:40 [INFO] Epoll is working, utilising it!
+23:21:40 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+23:21:40 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+23:21:40 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+23:21:40 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+23:21:40 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+23:21:40 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:21:40 [INFO] Attempting to update plugin from null to ModuleVersion(build=1881, git=4886c4b)
+23:21:40 [INFO] Attempting to Jenkins download module cmd_alert v1881
+23:21:41 [INFO] Download complete
+23:21:41 [INFO] Attempting to update plugin from null to ModuleVersion(build=1881, git=4886c4b)
+23:21:41 [INFO] Attempting to Jenkins download module cmd_find v1881
+23:21:41 [INFO] Download complete
+23:21:41 [INFO] Attempting to update plugin from null to ModuleVersion(build=1881, git=4886c4b)
+23:21:41 [INFO] Attempting to Jenkins download module cmd_list v1881
+23:21:41 [INFO] Download complete
+23:21:41 [INFO] Attempting to update plugin from null to ModuleVersion(build=1881, git=4886c4b)
+23:21:41 [INFO] Attempting to Jenkins download module cmd_send v1881
+23:21:41 [INFO] Download complete
+23:21:41 [INFO] Attempting to update plugin from null to ModuleVersion(build=1881, git=4886c4b)
+23:21:41 [INFO] Attempting to Jenkins download module cmd_server v1881
+23:21:41 [INFO] Download complete
+23:21:41 [INFO] Attempting to update plugin from null to ModuleVersion(build=1881, git=4886c4b)
+23:21:41 [INFO] Attempting to Jenkins download module reconnect_yaml v1881
+23:21:41 [INFO] Download complete
+23:21:42 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:21:42 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:21:42 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:21:42 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:21:42 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:21:42 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:21:42 [WARNING] Forced host server pvp is not defined
+23:21:42 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:21:42 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:21:42 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:21:42 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:21:42 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:21:42 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:21:42 [INFO] Listening on /0.0.0.0:25577
+23:23:16 [INFO] §cCommand not found
+23:23:17 [INFO] §cCommand not found
+23:23:27 [INFO] §cCommand not found
+23:24:13 [INFO] §cCommand not found
+23:25:25 [SEVERE] Exception in thread "main" 
+23:25:25 [SEVERE] java.io.IOException: Input/output error
+
+23:25:25 [SEVERE] 	at java.base/java.io.FileInputStream.read0(Native Method)
+
+23:25:25 [SEVERE] 	at java.base/java.io.FileInputStream.read(FileInputStream.java:231)
+
+23:25:25 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+
+23:25:25 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137)
+
+23:25:25 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246)
+
+23:25:25 [SEVERE] 	at jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+
+23:25:25 [SEVERE] 	at jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+
+23:25:25 [SEVERE] 	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145)
+
+23:25:25 [SEVERE] 	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2349)
+
+23:25:25 [SEVERE] 	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2269)
+
+23:25:25 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:72)
+
+23:25:25 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+
+23:59:47 [SEVERE] [/[0:0:0:0:0:0:0:1%0]:50232] <-> InitialHandler - encountered exception: net.md_5.bungee.util.QuietException: Unexpected packet received during login process! 4554202f3f7673636f646542726f7773
+23:59:47 [SEVERE] [/[0:0:0:0:0:0:0:1%0]:50238] <-> InitialHandler - encountered exception: net.md_5.bungee.util.QuietException: Unexpected packet received during login process! 4554202f3f7673636f646542726f7773
+23:59:47 [SEVERE] [/[0:0:0:0:0:0:0:1%0]:50244] <-> InitialHandler - encountered exception: net.md_5.bungee.util.QuietException: Unexpected packet received during login process! 4554202f3f7673636f646542726f7773
+23:59:53 [SEVERE] [/[0:0:0:0:0:0:0:1%0]:50254] <-> InitialHandler - encountered exception: net.md_5.bungee.util.QuietException: Unexpected packet received during login process! 4554202f3f7673636f646542726f7773
+23:59:53 [SEVERE] [/[0:0:0:0:0:0:0:1%0]:50266] <-> InitialHandler - encountered exception: net.md_5.bungee.util.QuietException: Unexpected packet received during login process! 4554202f3f7673636f646542726f7773
+23:59:53 [SEVERE] [/[0:0:0:0:0:0:0:1%0]:50274] <-> InitialHandler - encountered exception: net.md_5.bungee.util.QuietException: Unexpected packet received during login process! 4554202f3f7673636f646542726f7773
+00:15:55 [INFO] Using mbed TLS based native cipher.
+00:15:55 [INFO] Using zlib based native compressor.
+00:15:55 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:4886c4b:1881
+00:15:55 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+00:15:55 [INFO] Epoll is working, utilising it!
+00:15:56 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+00:15:56 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+00:15:56 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+00:15:56 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+00:15:56 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+00:15:56 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+00:15:56 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:15:56 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:15:56 [WARNING] [ViaVersion] ViaVersion does not work as intended across many different server versions, especially the more recent ones. Consider moving Via plugins to your backend server or switching to Velocity.
+00:15:57 [INFO] Loaded plugin ViaVersion version 0.1.3 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+00:15:57 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:15:57 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:15:57 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:15:57 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:15:57 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:15:57 [WARNING] :>  
+00:15:57 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+00:15:57 [WARNING] :>  
+00:15:57 [WARNING] :>  This plugin wasn't tested to be 'working'
+00:15:57 [WARNING] :>  with ANY version of BungeeCord (and forks)
+00:15:57 [WARNING] :>  apart from the versions listed below:
+00:15:57 [WARNING] :>  
+00:15:57 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:2593130:1878
+00:15:57 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:de8345a:579
+00:15:57 [WARNING] :>  
+00:15:57 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+00:15:57 [WARNING] :>  
+00:15:57 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+00:15:57 [WARNING] :>  
+00:15:57 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:15:57 [INFO] Loaded plugin EaglercraftXBungee version 1.3.2 by lax1dude
+00:15:57 [WARNING] Forced host server pvp is not defined
+00:15:57 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:15:57 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:15:58 [INFO] [ViaVersion] Loading block connection mappings ...
+00:15:59 [INFO] [ViaVersion] ViaVersion detected lowest supported version by the proxy: 1.8.x (47)
+00:15:59 [INFO] [ViaVersion] Highest supported version by the proxy: 1.21.2-1.21.3 (768)
+00:15:59 [INFO] [ViaVersion] Finished mapping loading, shutting down loader executor.
+00:15:59 [INFO] Enabled plugin ViaVersion version 0.1.3 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+00:15:59 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:15:59 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:15:59 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:15:59 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:15:59 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+00:15:59 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+00:16:00 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+00:16:00 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+00:16:01 [INFO] Enabled plugin EaglercraftXBungee version 1.3.2 by lax1dude
+00:16:01 [INFO] Listening on /0.0.0.0:25577
+00:16:01 [INFO] §cCommand not found
+00:16:01 [INFO] §cCommand not found
+00:16:01 [INFO] §cCommand not found
+00:16:01 [INFO] §cCommand not found
+00:16:06 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:51868]: Connected via websocket
+00:16:06 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:51868]: Origin header is null
+00:16:06 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 52f93b4d-4b6f-33c2-8f86-af6f5247f77c
+00:16:06 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:51868]: Logged in as 'SJnunbe3'
+00:16:06 [INFO] [SJnunbe3] -> UpstreamBridge has connected
+00:16:06 [INFO] [SJnunbe3] <-> ServerConnector [lobby] has connected
+00:20:39 [INFO] Using mbed TLS based native cipher.
+00:20:39 [INFO] Using zlib based native compressor.
+00:20:39 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:4886c4b:1881
+00:20:39 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+00:20:40 [INFO] Epoll is working, utilising it!
+00:20:40 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+00:20:40 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+00:20:40 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+00:20:40 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+00:20:40 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+00:20:40 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+00:20:40 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:20:40 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:20:40 [WARNING] [ViaVersion] ViaVersion does not work as intended across many different server versions, especially the more recent ones. Consider moving Via plugins to your backend server or switching to Velocity.
+00:20:40 [INFO] Loaded plugin ViaVersion version 0.1.3 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+00:20:40 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:20:40 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:20:40 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:20:40 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:20:40 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:20:40 [WARNING] :>  
+00:20:40 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+00:20:40 [WARNING] :>  
+00:20:40 [WARNING] :>  This plugin wasn't tested to be 'working'
+00:20:40 [WARNING] :>  with ANY version of BungeeCord (and forks)
+00:20:40 [WARNING] :>  apart from the versions listed below:
+00:20:40 [WARNING] :>  
+00:20:40 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:2593130:1878
+00:20:40 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:de8345a:579
+00:20:40 [WARNING] :>  
+00:20:40 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+00:20:40 [WARNING] :>  
+00:20:40 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+00:20:40 [WARNING] :>  
+00:20:40 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:20:40 [INFO] Loaded plugin EaglercraftXBungee version 1.3.2 by lax1dude
+00:20:41 [WARNING] Forced host server pvp is not defined
+00:20:41 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:20:41 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:20:42 [INFO] [ViaVersion] Loading block connection mappings ...
+00:20:45 [INFO] [ViaVersion] ViaVersion detected lowest supported version by the proxy: 1.8.x (47)
+00:20:45 [INFO] [ViaVersion] Highest supported version by the proxy: 1.21.2-1.21.3 (768)
+00:20:45 [INFO] [ViaVersion] Finished mapping loading, shutting down loader executor.
+00:20:45 [INFO] Enabled plugin ViaVersion version 0.1.3 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+00:20:45 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:20:45 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:20:45 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:20:45 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:20:45 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+00:20:46 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+00:20:46 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+00:20:46 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+00:20:46 [INFO] Enabled plugin EaglercraftXBungee version 1.3.2 by lax1dude
+00:20:46 [INFO] Listening on /0.0.0.0:25577
+00:21:09 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:51178]: Connected via websocket
+00:21:09 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:51178]: Origin header is null
+00:21:09 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 52f93b4d-4b6f-33c2-8f86-af6f5247f77c
+00:21:09 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:51178]: Logged in as 'SJnunbe3'
+00:21:09 [INFO] [SJnunbe3] -> UpstreamBridge has connected
+00:21:09 [INFO] [SJnunbe3] <-> ServerConnector [lobby] has connected
+00:25:42 [INFO] [SJnunbe3] -> UpstreamBridge has disconnected
+00:25:42 [INFO] [SJnunbe3] <-> DownstreamBridge <-> [lobby] has disconnected
+00:25:54 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/server-test/bungee/server-icon.png
+00:25:55 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:34416]: Connected via websocket
+00:25:55 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:34416]: Origin header is null
+00:25:55 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 52f93b4d-4b6f-33c2-8f86-af6f5247f77c
+00:25:55 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:34416]: Logged in as 'SJnunbe3'
+00:25:55 [INFO] [SJnunbe3] -> UpstreamBridge has connected
+00:25:55 [INFO] [SJnunbe3] <-> ServerConnector [lobby] has connected
+00:26:19 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:60880]: Connected via websocket
+00:26:19 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:60880]: Origin header is null
+00:26:19 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 42569800-1032-3573-9854-03eb056f7649
+00:26:19 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:60880]: Logged in as 'SATORO'
+00:26:19 [INFO] [SATORO] -> UpstreamBridge has connected
+00:26:20 [INFO] [SATORO] <-> ServerConnector [lobby] has connected
+00:27:12 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:34416] Packet TabCompleteRequest had extra bytes! (1)
+00:27:13 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:34416] Packet TabCompleteRequest had extra bytes! (1)
+00:27:13 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:34416] Packet TabCompleteRequest had extra bytes! (1)
+00:27:13 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:34416] Packet TabCompleteRequest had extra bytes! (1)
+00:27:13 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:34416] Packet TabCompleteRequest had extra bytes! (1)
+00:27:14 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:34416] Packet TabCompleteRequest had extra bytes! (1)
+00:27:14 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:34416] Packet TabCompleteRequest had extra bytes! (1)
+00:27:14 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:34416] Packet TabCompleteRequest had extra bytes! (1)
+00:27:14 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:34416] Packet TabCompleteRequest had extra bytes! (1)
+00:27:15 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:34416] Packet TabCompleteRequest had extra bytes! (1)
+00:27:15 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:34416] Packet TabCompleteRequest had extra bytes! (1)
+00:27:15 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:34416] Packet TabCompleteRequest had extra bytes! (1)
+00:27:15 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:34416] Packet TabCompleteRequest had extra bytes! (1)
+00:27:16 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:34416] Packet TabCompleteRequest had extra bytes! (1)
+00:27:16 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:34416] Packet TabCompleteRequest had extra bytes! (1)
+00:27:16 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:34416] Packet TabCompleteRequest had extra bytes! (1)
+00:27:16 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:34416] Packet TabCompleteRequest had extra bytes! (1)
+00:27:16 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:34416] Packet TabCompleteRequest had extra bytes! (1)
+00:27:19 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:34416] Packet TabCompleteRequest had extra bytes! (1)
+00:35:43 [INFO] Using mbed TLS based native cipher.
+00:35:43 [INFO] Using zlib based native compressor.
+00:35:43 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:4886c4b:1881
+00:35:44 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+00:35:44 [INFO] Epoll is working, utilising it!
+00:35:44 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+00:35:44 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+00:35:44 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+00:35:44 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+00:35:44 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+00:35:44 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+00:35:44 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:35:44 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:35:44 [WARNING] [ViaVersion] ViaVersion does not work as intended across many different server versions, especially the more recent ones. Consider moving Via plugins to your backend server or switching to Velocity.
+00:35:44 [INFO] Loaded plugin ViaVersion version 0.1.3 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+00:35:44 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:35:44 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:35:44 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:35:44 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:35:44 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:35:44 [WARNING] :>  
+00:35:44 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+00:35:44 [WARNING] :>  
+00:35:44 [WARNING] :>  This plugin wasn't tested to be 'working'
+00:35:44 [WARNING] :>  with ANY version of BungeeCord (and forks)
+00:35:44 [WARNING] :>  apart from the versions listed below:
+00:35:44 [WARNING] :>  
+00:35:44 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:2593130:1878
+00:35:44 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:de8345a:579
+00:35:44 [WARNING] :>  
+00:35:44 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+00:35:44 [WARNING] :>  
+00:35:44 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+00:35:44 [WARNING] :>  
+00:35:44 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:35:44 [INFO] Loaded plugin EaglercraftXBungee version 1.3.2 by lax1dude
+00:35:45 [WARNING] Forced host server pvp is not defined
+00:35:45 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:35:45 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:35:45 [INFO] [ViaVersion] Loading block connection mappings ...
+00:35:46 [INFO] [ViaVersion] ViaVersion detected lowest supported version by the proxy: 1.8.x (47)
+00:35:46 [INFO] [ViaVersion] Highest supported version by the proxy: 1.21.2-1.21.3 (768)
+00:35:47 [INFO] [ViaVersion] Finished mapping loading, shutting down loader executor.
+00:35:47 [INFO] Enabled plugin ViaVersion version 0.1.3 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+00:35:47 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:35:47 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:35:47 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:35:47 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+00:35:47 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+00:35:47 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+00:35:47 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+00:35:48 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+00:35:48 [INFO] Enabled plugin EaglercraftXBungee version 1.3.2 by lax1dude
+00:35:48 [INFO] Listening on /0.0.0.0:25577
+00:36:00 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:58374]: Connected via websocket
+00:36:00 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:58374]: Origin header is null
+00:36:00 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 52f93b4d-4b6f-33c2-8f86-af6f5247f77c
+00:36:00 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:58374]: Logged in as 'SJnunbe3'
+00:36:00 [INFO] [SJnunbe3] -> UpstreamBridge has connected
+00:36:00 [INFO] [SJnunbe3] <-> ServerConnector [lobby] has connected
+00:36:09 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:54892]: Connected via websocket
+00:36:09 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:54892]: Origin header is null
+00:36:09 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 42569800-1032-3573-9854-03eb056f7649
+00:36:09 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:54892]: Logged in as 'SATORO'
+00:36:09 [INFO] [SATORO] -> UpstreamBridge has connected
+00:36:09 [INFO] [SATORO] <-> ServerConnector [lobby] has connected
+00:38:13 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:58374] Packet TabCompleteRequest had extra bytes! (9)
+00:38:13 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:58374] Packet TabCompleteRequest had extra bytes! (9)
+00:38:14 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:58374] Packet TabCompleteRequest had extra bytes! (9)
+00:38:14 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:58374] Packet TabCompleteRequest had extra bytes! (9)
+00:38:15 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:58374] Packet TabCompleteRequest had extra bytes! (9)
+00:38:15 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:58374] Packet TabCompleteRequest had extra bytes! (9)
+00:38:21 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:58374] Packet TabCompleteRequest had extra bytes! (9)
+00:41:31 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:58374] Packet TabCompleteRequest had extra bytes! (1)
+00:41:32 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:58374] Packet TabCompleteRequest had extra bytes! (1)
+00:41:42 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:58374] Packet TabCompleteRequest had extra bytes! (1)
+00:41:43 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:58374] Packet TabCompleteRequest had extra bytes! (1)
+00:41:43 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:58374] Packet TabCompleteRequest had extra bytes! (1)
+00:41:46 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:58374] Packet TabCompleteRequest had extra bytes! (1)
+00:41:56 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:58374] Packet TabCompleteRequest had extra bytes! (1)
+00:43:52 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:58374] Packet TabCompleteRequest had extra bytes! (9)
+00:45:20 [INFO] [SJnunbe3] -> UpstreamBridge has disconnected
+00:45:20 [INFO] [SJnunbe3] <-> DownstreamBridge <-> [lobby] has disconnected
+00:45:43 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/server-test/bungee/server-icon.png
+00:45:44 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:41056]: Connected via websocket
+00:45:44 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:41056]: Origin header is null
+00:45:44 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 52f93b4d-4b6f-33c2-8f86-af6f5247f77c
+00:45:44 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:41056]: Logged in as 'SJnunbe3'
+00:45:44 [INFO] [SJnunbe3] -> UpstreamBridge has connected
+00:45:44 [INFO] [SJnunbe3] <-> ServerConnector [lobby] has connected
+00:46:41 [INFO] [SJnunbe3] -> UpstreamBridge has disconnected
+00:46:41 [INFO] [SJnunbe3] <-> DownstreamBridge <-> [lobby] has disconnected
+00:46:51 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:40254]: Connected via websocket
+00:46:51 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:40254]: Origin header is null
+00:46:51 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player d8511fe5-18f9-3ecb-8a36-cf72abe2867e
+00:46:51 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:40254]: Logged in as 'SJnunbe3_'
+00:46:51 [INFO] [SJnunbe3_] -> UpstreamBridge has connected
+00:46:51 [INFO] [SJnunbe3_] <-> ServerConnector [lobby] has connected
+00:46:59 [INFO] [SJnunbe3_] -> UpstreamBridge has disconnected
+00:46:59 [INFO] [SJnunbe3_] <-> DownstreamBridge <-> [lobby] has disconnected
+00:47:04 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:48760]: Connected via websocket
+00:47:04 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:48760]: Origin header is null
+00:47:04 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 52f93b4d-4b6f-33c2-8f86-af6f5247f77c
+00:47:04 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:48760]: Logged in as 'SJnunbe3'
+00:47:04 [INFO] [SJnunbe3] -> UpstreamBridge has connected
+00:47:04 [INFO] [SJnunbe3] <-> ServerConnector [lobby] has connected
+00:47:38 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:48760] Packet TabCompleteRequest had extra bytes! (9)
+01:02:49 [INFO] Using mbed TLS based native cipher.
+01:02:49 [INFO] Using zlib based native compressor.
+01:02:49 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:4886c4b:1881
+01:02:49 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+01:02:49 [INFO] Epoll is working, utilising it!
+01:02:49 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+01:02:49 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+01:02:49 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+01:02:49 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+01:02:49 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+01:02:49 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+01:02:49 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+01:02:49 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+01:02:49 [WARNING] [ViaVersion] ViaVersion does not work as intended across many different server versions, especially the more recent ones. Consider moving Via plugins to your backend server or switching to Velocity.
+01:02:50 [INFO] Loaded plugin ViaVersion version 0.1.3 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+01:02:50 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+01:02:50 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+01:02:50 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+01:02:50 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+01:02:50 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+01:02:50 [WARNING] :>  
+01:02:50 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+01:02:50 [WARNING] :>  
+01:02:50 [WARNING] :>  This plugin wasn't tested to be 'working'
+01:02:50 [WARNING] :>  with ANY version of BungeeCord (and forks)
+01:02:50 [WARNING] :>  apart from the versions listed below:
+01:02:50 [WARNING] :>  
+01:02:50 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:2593130:1878
+01:02:50 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:de8345a:579
+01:02:50 [WARNING] :>  
+01:02:50 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+01:02:50 [WARNING] :>  
+01:02:50 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+01:02:50 [WARNING] :>  
+01:02:50 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+01:02:50 [INFO] Loaded plugin EaglercraftXBungee version 1.3.2 by lax1dude
+01:02:51 [WARNING] Forced host server pvp is not defined
+01:02:51 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+01:02:51 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+01:02:51 [INFO] [ViaVersion] Loading block connection mappings ...
+01:02:52 [INFO] [ViaVersion] ViaVersion detected lowest supported version by the proxy: 1.8.x (47)
+01:02:52 [INFO] [ViaVersion] Highest supported version by the proxy: 1.21.2-1.21.3 (768)
+01:02:52 [INFO] [ViaVersion] Finished mapping loading, shutting down loader executor.
+01:02:52 [INFO] Enabled plugin ViaVersion version 0.1.3 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+01:02:52 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+01:02:52 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+01:02:52 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+01:02:52 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+01:02:52 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+01:02:53 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+01:02:53 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+01:02:53 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+01:02:53 [INFO] Enabled plugin EaglercraftXBungee version 1.3.2 by lax1dude
+01:02:53 [INFO] Listening on /0.0.0.0:25577
+01:02:53 [INFO] §cCommand not found
+01:03:11 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:53990]: Connected via websocket
+01:03:11 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:53990]: Origin header is null
+01:03:11 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 52f93b4d-4b6f-33c2-8f86-af6f5247f77c
+01:03:11 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:53990]: Logged in as 'SJnunbe3'
+01:03:11 [INFO] [SJnunbe3] -> UpstreamBridge has connected
+01:03:11 [INFO] [SJnunbe3] <-> ServerConnector [lobby] has connected
+01:05:18 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:53990] Packet TabCompleteRequest had extra bytes! (9)
+01:05:19 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:53990] Packet TabCompleteRequest had extra bytes! (9)
+01:05:19 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:53990] Packet TabCompleteRequest had extra bytes! (9)
+01:06:32 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:53990] Packet TabCompleteRequest had extra bytes! (9)
+01:07:57 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:53990] Packet TabCompleteRequest had extra bytes! (9)
+01:07:57 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:53990] Packet TabCompleteRequest had extra bytes! (9)
+01:08:07 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:53990] Packet TabCompleteRequest had extra bytes! (9)
+01:08:10 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:53990] Packet TabCompleteRequest had extra bytes! (9)
+01:08:11 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:53990] Packet TabCompleteRequest had extra bytes! (9)
+01:09:08 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:53990] Packet TabCompleteRequest had extra bytes! (9)
+01:09:09 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:53990] Packet TabCompleteRequest had extra bytes! (9)
+01:11:15 [INFO] [SJnunbe3] -> UpstreamBridge has disconnected
+01:11:15 [INFO] [SJnunbe3] <-> DownstreamBridge <-> [lobby] has disconnected
+01:11:24 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/server-test/bungee/server-icon.png
+01:11:31 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:55058]: Connected via websocket
+01:11:31 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:55058]: Origin header is null
+01:11:31 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 52f93b4d-4b6f-33c2-8f86-af6f5247f77c
+01:11:31 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:55058]: Logged in as 'SJnunbe3'
+01:11:31 [INFO] [SJnunbe3] -> UpstreamBridge has connected
+01:11:31 [INFO] [SJnunbe3] <-> ServerConnector [lobby] has connected
+01:12:14 [INFO] [SJnunbe3] -> UpstreamBridge has disconnected
+01:12:14 [INFO] [SJnunbe3] <-> DownstreamBridge <-> [lobby] has disconnected
+01:12:25 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:34222]: Connected via websocket
+01:12:25 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:34222]: Origin header is null
+01:12:25 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 52f93b4d-4b6f-33c2-8f86-af6f5247f77c
+01:12:25 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:34222]: Logged in as 'SJnunbe3'
+01:12:25 [INFO] [SJnunbe3] -> UpstreamBridge has connected
+01:12:25 [INFO] [SJnunbe3] <-> ServerConnector [lobby] has connected
+01:13:17 [INFO] [SJnunbe3] -> UpstreamBridge has disconnected
+01:13:17 [INFO] [SJnunbe3] <-> DownstreamBridge <-> [lobby] has disconnected
+01:13:32 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:58612]: Connected via websocket
+01:13:32 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:58612]: Origin header is null
+01:13:32 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 42569800-1032-3573-9854-03eb056f7649
+01:13:32 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:58612]: Logged in as 'SATORO'
+01:13:32 [INFO] [SATORO] -> UpstreamBridge has connected
+01:13:33 [INFO] [SATORO] <-> ServerConnector [lobby] has connected
+01:13:39 [INFO] [SATORO] -> UpstreamBridge has disconnected
+01:13:39 [INFO] [SATORO] <-> DownstreamBridge <-> [lobby] has disconnected
+12:42:00 [INFO] Using mbed TLS based native cipher.
+12:42:00 [INFO] Using zlib based native compressor.
+12:42:00 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:4886c4b:1881
+12:42:00 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+12:42:00 [INFO] Epoll is working, utilising it!
+12:42:00 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+12:42:00 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+12:42:00 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+12:42:00 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+12:42:00 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+12:42:00 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+12:42:01 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+12:42:01 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+12:42:02 [WARNING] [ViaVersion] ViaVersion does not work as intended across many different server versions, especially the more recent ones. Consider moving Via plugins to your backend server or switching to Velocity.
+12:42:02 [INFO] Loaded plugin ViaVersion version 0.1.3 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+12:42:02 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+12:42:02 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+12:42:02 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+12:42:02 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+12:42:02 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+12:42:02 [WARNING] :>  
+12:42:02 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+12:42:02 [WARNING] :>  
+12:42:02 [WARNING] :>  This plugin wasn't tested to be 'working'
+12:42:02 [WARNING] :>  with ANY version of BungeeCord (and forks)
+12:42:02 [WARNING] :>  apart from the versions listed below:
+12:42:02 [WARNING] :>  
+12:42:02 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:2593130:1878
+12:42:02 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:de8345a:579
+12:42:02 [WARNING] :>  
+12:42:02 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+12:42:02 [WARNING] :>  
+12:42:02 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+12:42:02 [WARNING] :>  
+12:42:02 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+12:42:03 [INFO] Loaded plugin EaglercraftXBungee version 1.3.2 by lax1dude
+12:42:03 [WARNING] Forced host server pvp is not defined
+12:42:03 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+12:42:03 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+12:42:04 [INFO] [ViaVersion] Loading block connection mappings ...
+12:42:05 [INFO] [ViaVersion] ViaVersion detected lowest supported version by the proxy: 1.8.x (47)
+12:42:05 [INFO] [ViaVersion] Highest supported version by the proxy: 1.21.2-1.21.3 (768)
+12:42:05 [INFO] [ViaVersion] Finished mapping loading, shutting down loader executor.
+12:42:05 [INFO] Enabled plugin ViaVersion version 0.1.3 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+12:42:05 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+12:42:05 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+12:42:05 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+12:42:05 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+12:42:05 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+12:42:05 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+12:42:06 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+12:42:06 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+12:42:06 [INFO] Enabled plugin EaglercraftXBungee version 1.3.2 by lax1dude
+12:42:06 [INFO] Listening on /0.0.0.0:25577
+21:33:55 [INFO] Using mbed TLS based native cipher.
+21:33:55 [INFO] Using zlib based native compressor.
+21:33:55 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:4886c4b:1881
+21:33:55 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+21:33:55 [INFO] Epoll is working, utilising it!
+21:33:55 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+21:33:55 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+21:33:55 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+21:33:55 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+21:33:55 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+21:33:55 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+21:33:55 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+21:33:55 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+21:33:55 [WARNING] [ViaVersion] ViaVersion does not work as intended across many different server versions, especially the more recent ones. Consider moving Via plugins to your backend server or switching to Velocity.
+21:33:56 [INFO] Loaded plugin ViaVersion version 0.1.3 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+21:33:56 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+21:33:56 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+21:33:56 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+21:33:56 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+21:33:56 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+21:33:56 [WARNING] :>  
+21:33:56 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+21:33:56 [WARNING] :>  
+21:33:56 [WARNING] :>  This plugin wasn't tested to be 'working'
+21:33:56 [WARNING] :>  with ANY version of BungeeCord (and forks)
+21:33:56 [WARNING] :>  apart from the versions listed below:
+21:33:56 [WARNING] :>  
+21:33:56 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:2593130:1878
+21:33:56 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:de8345a:579
+21:33:56 [WARNING] :>  
+21:33:56 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+21:33:56 [WARNING] :>  
+21:33:56 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+21:33:56 [WARNING] :>  
+21:33:56 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+21:33:56 [INFO] Loaded plugin EaglercraftXBungee version 1.3.2 by lax1dude
+21:33:56 [WARNING] Forced host server pvp is not defined
+21:33:56 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+21:33:56 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+21:33:56 [INFO] [ViaVersion] Loading block connection mappings ...
+21:33:57 [INFO] [ViaVersion] ViaVersion detected lowest supported version by the proxy: 1.8.x (47)
+21:33:57 [INFO] [ViaVersion] Highest supported version by the proxy: 1.21.2-1.21.3 (768)
+21:33:57 [INFO] [ViaVersion] Finished mapping loading, shutting down loader executor.
+21:33:57 [INFO] Enabled plugin ViaVersion version 0.1.3 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+21:33:57 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+21:33:57 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+21:33:57 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+21:33:57 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+21:33:57 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+21:33:57 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+21:33:57 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+21:33:57 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+21:33:57 [INFO] Enabled plugin EaglercraftXBungee version 1.3.2 by lax1dude
+21:33:57 [INFO] Listening on /0.0.0.0:25577
+21:33:57 [INFO] §cCommand not found
+21:34:07 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/server-test/bungee/server-icon.png
+21:34:09 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:45170]: Connected via websocket
+21:34:09 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:45170]: Origin header is https://eaglercraft.com
+21:34:09 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 52f93b4d-4b6f-33c2-8f86-af6f5247f77c
+21:34:09 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:45170]: Logged in as 'SJnunbe3'
+21:34:09 [INFO] [SJnunbe3] -> UpstreamBridge has connected
+21:34:09 [INFO] [SJnunbe3] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+21:34:09 [INFO] [SJnunbe3] -> UpstreamBridge has disconnected
+21:34:30 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:33148]: Connected via websocket
+21:34:30 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:33148]: Origin header is null
+21:34:30 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 4d019afe-20e6-3855-af2f-6ec9d7f0b6bf
+21:34:30 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:33148]: Logged in as 'SATORO_'
+21:34:30 [INFO] [SATORO_] -> UpstreamBridge has connected
+21:34:30 [INFO] [SATORO_] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+21:34:30 [INFO] [SATORO_] -> UpstreamBridge has disconnected
+21:34:34 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:33150]: Connected via websocket
+21:34:34 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:33150]: Origin header is null
+21:34:34 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 4d019afe-20e6-3855-af2f-6ec9d7f0b6bf
+21:34:34 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:33150]: Logged in as 'SATORO_'
+21:34:34 [INFO] [SATORO_] -> UpstreamBridge has connected
+21:34:34 [INFO] [SATORO_] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+21:34:34 [INFO] [SATORO_] -> UpstreamBridge has disconnected
+21:34:40 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:43248]: Connected via websocket
+21:34:40 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:43248]: Origin header is null
+21:34:40 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 4d019afe-20e6-3855-af2f-6ec9d7f0b6bf
+21:34:40 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:43248]: Logged in as 'SATORO_'
+21:34:40 [INFO] [SATORO_] -> UpstreamBridge has connected
+21:34:40 [INFO] [SATORO_] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+21:34:40 [INFO] [SATORO_] -> UpstreamBridge has disconnected
+21:34:54 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:45634]: Connected via websocket
+21:34:54 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:45634]: Origin header is null
+21:34:54 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 4d019afe-20e6-3855-af2f-6ec9d7f0b6bf
+21:34:54 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:45634]: Logged in as 'SATORO_'
+21:34:54 [INFO] [SATORO_] -> UpstreamBridge has connected
+21:34:54 [INFO] [SATORO_] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+21:34:54 [INFO] [SATORO_] -> UpstreamBridge has disconnected
+21:35:50 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:60282]: Connected via websocket
+21:35:50 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:60282]: Origin header is null
+21:35:50 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 4d019afe-20e6-3855-af2f-6ec9d7f0b6bf
+21:35:50 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:60282]: Logged in as 'SATORO_'
+21:35:50 [INFO] [SATORO_] -> UpstreamBridge has connected
+21:35:50 [INFO] [SATORO_] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+21:35:50 [INFO] [SATORO_] -> UpstreamBridge has disconnected
+21:37:12 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:34746]: Connected via websocket
+21:37:12 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:34746]: Origin header is null
+21:37:12 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 4d019afe-20e6-3855-af2f-6ec9d7f0b6bf
+21:37:12 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:34746]: Logged in as 'SATORO_'
+21:37:12 [INFO] [SATORO_] -> UpstreamBridge has connected
+21:37:17 [INFO] [SATORO_] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+21:37:17 [INFO] [SATORO_] -> UpstreamBridge has disconnected
+21:37:25 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:48962]: Connected via websocket
+21:37:25 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:48962]: Origin header is null
+21:37:26 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 4d019afe-20e6-3855-af2f-6ec9d7f0b6bf
+21:37:26 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:48962]: Logged in as 'SATORO_'
+21:37:26 [INFO] [SATORO_] -> UpstreamBridge has connected
+21:37:31 [INFO] [SATORO_] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+21:37:31 [INFO] [SATORO_] -> UpstreamBridge has disconnected
+21:38:16 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:53280]: Connected via websocket
+21:38:16 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:53280]: Origin header is null
+21:38:17 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 4d019afe-20e6-3855-af2f-6ec9d7f0b6bf
+21:38:17 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:53280]: Logged in as 'SATORO_'
+21:38:17 [INFO] [SATORO_] -> UpstreamBridge has connected
+21:38:19 [INFO] [SATORO_] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+21:38:19 [INFO] [SATORO_] -> UpstreamBridge has disconnected
+21:52:02 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:50786]: Connected via websocket
+21:52:02 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:50786]: Origin header is null
+21:52:02 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 4d019afe-20e6-3855-af2f-6ec9d7f0b6bf
+21:52:02 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:50786]: Logged in as 'SATORO_'
+21:52:02 [INFO] [SATORO_] -> UpstreamBridge has connected
+21:52:02 [INFO] [SATORO_] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+21:52:02 [INFO] [SATORO_] -> UpstreamBridge has disconnected
+23:18:42 [INFO] Using mbed TLS based native cipher.
+23:18:42 [INFO] Using zlib based native compressor.
+23:18:42 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:4886c4b:1881
+23:18:42 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+23:18:42 [INFO] Epoll is working, utilising it!
+23:18:42 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+23:18:42 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+23:18:42 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+23:18:42 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+23:18:42 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+23:18:42 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:18:42 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:18:42 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:18:42 [WARNING] [ViaVersion] ViaVersion does not work as intended across many different server versions, especially the more recent ones. Consider moving Via plugins to your backend server or switching to Velocity.
+23:18:43 [INFO] Loaded plugin ViaVersion version 0.1.3 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+23:18:43 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:18:43 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:18:43 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:18:43 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:18:43 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+23:18:43 [WARNING] :>  
+23:18:43 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+23:18:43 [WARNING] :>  
+23:18:43 [WARNING] :>  This plugin wasn't tested to be 'working'
+23:18:43 [WARNING] :>  with ANY version of BungeeCord (and forks)
+23:18:43 [WARNING] :>  apart from the versions listed below:
+23:18:43 [WARNING] :>  
+23:18:43 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:2593130:1878
+23:18:43 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:de8345a:579
+23:18:43 [WARNING] :>  
+23:18:43 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+23:18:43 [WARNING] :>  
+23:18:43 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+23:18:43 [WARNING] :>  
+23:18:43 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+23:18:43 [INFO] Loaded plugin EaglercraftXBungee version 1.3.2 by lax1dude
+23:18:43 [WARNING] Forced host server pvp is not defined
+23:18:43 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:18:43 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:18:44 [INFO] [ViaVersion] Loading block connection mappings ...
+23:18:44 [INFO] [ViaVersion] ViaVersion detected lowest supported version by the proxy: 1.8.x (47)
+23:18:44 [INFO] [ViaVersion] Highest supported version by the proxy: 1.21.2-1.21.3 (768)
+23:18:44 [INFO] [ViaVersion] Finished mapping loading, shutting down loader executor.
+23:18:44 [INFO] Enabled plugin ViaVersion version 0.1.3 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+23:18:44 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:18:44 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:18:44 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:18:44 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:18:44 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+23:18:44 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+23:18:45 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+23:18:45 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+23:18:45 [INFO] Enabled plugin EaglercraftXBungee version 1.3.2 by lax1dude
+23:18:45 [INFO] §cCommand not found
+23:18:45 [INFO] Listening on /0.0.0.0:25577
+23:30:10 [INFO] Using mbed TLS based native cipher.
+23:30:10 [INFO] Using zlib based native compressor.
+23:30:10 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:4886c4b:1881
+23:30:10 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+23:30:10 [INFO] Epoll is working, utilising it!
+23:30:11 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+23:30:11 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+23:30:11 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+23:30:11 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+23:30:11 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+23:30:11 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:30:11 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:30:11 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:30:11 [WARNING] [ViaVersion] ViaVersion does not work as intended across many different server versions, especially the more recent ones. Consider moving Via plugins to your backend server or switching to Velocity.
+23:30:11 [INFO] Loaded plugin ViaVersion version 0.1.3 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+23:30:11 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:30:11 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:30:11 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:30:11 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:30:11 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+23:30:11 [WARNING] :>  
+23:30:11 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+23:30:11 [WARNING] :>  
+23:30:11 [WARNING] :>  This plugin wasn't tested to be 'working'
+23:30:11 [WARNING] :>  with ANY version of BungeeCord (and forks)
+23:30:11 [WARNING] :>  apart from the versions listed below:
+23:30:11 [WARNING] :>  
+23:30:11 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:2593130:1878
+23:30:11 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:de8345a:579
+23:30:11 [WARNING] :>  
+23:30:11 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+23:30:11 [WARNING] :>  
+23:30:11 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+23:30:11 [WARNING] :>  
+23:30:11 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+23:30:12 [INFO] Loaded plugin EaglercraftXBungee version 1.3.2 by lax1dude
+23:30:12 [WARNING] Forced host server pvp is not defined
+23:30:12 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:30:12 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:30:13 [INFO] [ViaVersion] Loading block connection mappings ...
+23:30:14 [INFO] [ViaVersion] ViaVersion detected lowest supported version by the proxy: 1.8.x (47)
+23:30:14 [INFO] [ViaVersion] Highest supported version by the proxy: 1.21.2-1.21.3 (768)
+23:30:14 [INFO] [ViaVersion] Finished mapping loading, shutting down loader executor.
+23:30:14 [INFO] Enabled plugin ViaVersion version 0.1.3 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+23:30:14 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:30:14 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:30:14 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:30:14 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:4886c4b:1881 by SpigotMC
+23:30:14 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+23:30:14 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+23:30:15 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+23:30:15 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+23:30:15 [INFO] Enabled plugin EaglercraftXBungee version 1.3.2 by lax1dude
+23:30:16 [INFO] Listening on /0.0.0.0:25577
+23:30:16 [INFO] §cCommand not found
+23:30:41 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/server-test/bungee/server-icon.png
+23:33:01 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:42356]: Connected via websocket
+23:33:01 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:42356]: Origin header is https://eaglercraft.com
+23:33:01 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 52f93b4d-4b6f-33c2-8f86-af6f5247f77c
+23:33:01 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:42356]: Logged in as 'SJnunbe3'
+23:33:01 [INFO] [SJnunbe3] -> UpstreamBridge has connected
+23:33:01 [INFO] [SJnunbe3] <-> ServerConnector [lobby] has connected
+23:33:12 [INFO] [SJnunbe3] -> UpstreamBridge has disconnected
+23:34:11 [WARNING] [SJnunbe3] <-> DownstreamBridge <-> [lobby] - read timed out
+23:34:11 [INFO] [SJnunbe3] disconnected with: §f§fReadTimeoutException : null
+23:34:11 [INFO] [SJnunbe3] <-> DownstreamBridge <-> [lobby] has disconnected
+23:35:59 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:51386]: Connected via websocket
+23:35:59 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:51386]: Origin header is https://eaglercraft.com
+23:35:59 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 52f93b4d-4b6f-33c2-8f86-af6f5247f77c
+23:35:59 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:51386]: Logged in as 'SJnunbe3'
+23:35:59 [INFO] [SJnunbe3] -> UpstreamBridge has connected
+23:36:04 [INFO] [SJnunbe3] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:36:04 [INFO] [SJnunbe3] -> UpstreamBridge has disconnected
+23:36:16 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:38876]: Connected via websocket
+23:36:16 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:38876]: Origin header is https://eaglercraft.com
+23:36:16 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 52f93b4d-4b6f-33c2-8f86-af6f5247f77c
+23:36:16 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:38876]: Logged in as 'SJnunbe3'
+23:36:16 [INFO] [SJnunbe3] -> UpstreamBridge has connected
+23:36:16 [INFO] [SJnunbe3] <-> ServerConnector [lobby] has connected
+23:36:31 [INFO] [SJnunbe3] -> UpstreamBridge has disconnected
+23:36:31 [INFO] [SJnunbe3] <-> DownstreamBridge <-> [lobby] has disconnected
+23:38:53 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:37418]: Connected via websocket
+23:38:53 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:37418]: Origin header is https://eaglercraft.com
+23:38:54 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 52f93b4d-4b6f-33c2-8f86-af6f5247f77c
+23:38:54 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:37418]: Logged in as 'SJnunbe3'
+23:38:54 [INFO] [SJnunbe3] -> UpstreamBridge has connected
+23:38:59 [INFO] [SJnunbe3] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:38:59 [INFO] [SJnunbe3] -> UpstreamBridge has disconnected
+23:39:09 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:38326]: Connected via websocket
+23:39:09 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:38326]: Origin header is https://eaglercraft.com
+23:39:09 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 52f93b4d-4b6f-33c2-8f86-af6f5247f77c
+23:39:09 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:38326]: Logged in as 'SJnunbe3'
+23:39:09 [INFO] [SJnunbe3] -> UpstreamBridge has connected
+23:39:14 [INFO] [SJnunbe3] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:39:14 [INFO] [SJnunbe3] -> UpstreamBridge has disconnected
+23:42:10 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:52954]: Connected via websocket
+23:42:10 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:52954]: Origin header is null
+23:42:10 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 4d019afe-20e6-3855-af2f-6ec9d7f0b6bf
+23:42:10 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:52954]: Logged in as 'SATORO_'
+23:42:10 [INFO] [SATORO_] -> UpstreamBridge has connected
+23:42:10 [INFO] [SATORO_] <-> ServerConnector [lobby] has connected
+23:42:25 [INFO] [SATORO_] -> UpstreamBridge has disconnected
+23:42:25 [INFO] [SATORO_] <-> DownstreamBridge <-> [lobby] has disconnected
+23:42:28 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:50876]: Connected via websocket
+23:42:28 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:50876]: Origin header is null
+23:42:28 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 4d019afe-20e6-3855-af2f-6ec9d7f0b6bf
+23:42:28 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:50876]: Logged in as 'SATORO_'
+23:42:28 [INFO] [SATORO_] -> UpstreamBridge has connected
+23:42:29 [INFO] [SATORO_] <-> ServerConnector [lobby] has connected
+23:42:40 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:58488]: Connected via websocket
+23:42:40 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:58488]: Origin header is https://eaglercraft.com
+23:42:40 [INFO] [SATORO_] -> UpstreamBridge has disconnected
+23:42:40 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 52f93b4d-4b6f-33c2-8f86-af6f5247f77c
+23:42:40 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:58488]: Logged in as 'SJnunbe3'
+23:42:40 [INFO] [SJnunbe3] -> UpstreamBridge has connected
+23:42:45 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:57490]: Connected via websocket
+23:42:45 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:57490]: Origin header is null
+23:42:45 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 4d019afe-20e6-3855-af2f-6ec9d7f0b6bf
+23:42:45 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:57490]: Logged in as 'SATORO_'
+23:42:45 [INFO] [SATORO_] -> UpstreamBridge has connected
+23:42:45 [INFO] [SJnunbe3] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:42:45 [INFO] [SJnunbe3] -> UpstreamBridge has disconnected
+23:42:45 [INFO] [SATORO_] <-> ServerConnector [lobby] has connected
+23:42:45 [INFO] [SATORO_] disconnected with: §f§cKicked whilst connecting to lobby: §fYou must wait 26 seconds before logging-in again.
+23:42:45 [INFO] [SATORO_] -> UpstreamBridge has disconnected
+23:42:45 [INFO] [SATORO_] <-> ServerConnector [lobby] has disconnected
+23:42:59 [WARNING] [SATORO_] <-> ServerConnector [lobby] - read timed out
+23:42:59 [INFO] [SATORO_] disconnected with: §f§cException Connecting: ReadTimeoutException : null
+23:42:59 [INFO] [SATORO_] <-> ServerConnector [lobby] has disconnected
+23:43:02 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:51388]: Connected via websocket
+23:43:02 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:51388]: Origin header is https://eaglercraft.com
+23:43:02 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 52f93b4d-4b6f-33c2-8f86-af6f5247f77c
+23:43:02 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:51388]: Logged in as 'SJnunbe3'
+23:43:02 [INFO] [SJnunbe3] -> UpstreamBridge has connected
+23:43:07 [INFO] [SJnunbe3] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:43:07 [INFO] [SJnunbe3] -> UpstreamBridge has disconnected
+23:44:07 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:55196]: Connected via websocket
+23:44:07 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:55196]: Origin header is null
+23:44:07 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 4d019afe-20e6-3855-af2f-6ec9d7f0b6bf
+23:44:07 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:55196]: Logged in as 'SATORO_'
+23:44:07 [INFO] [SATORO_] -> UpstreamBridge has connected
+23:44:12 [INFO] [SATORO_] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:44:12 [INFO] [SATORO_] -> UpstreamBridge has disconnected
+23:45:41 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:38498]: Connected via websocket
+23:45:41 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:38498]: Origin header is null
+23:45:41 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 4d019afe-20e6-3855-af2f-6ec9d7f0b6bf
+23:45:41 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:38498]: Logged in as 'SATORO_'
+23:45:41 [INFO] [SATORO_] -> UpstreamBridge has connected
+23:45:41 [INFO] [SATORO_] <-> ServerConnector [lobby] has connected
+23:46:07 [INFO] [SATORO_] -> UpstreamBridge has disconnected
+23:46:07 [INFO] [SATORO_] <-> DownstreamBridge <-> [lobby] has disconnected
+23:46:12 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:42274]: Connected via websocket
+23:46:12 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:42274]: Origin header is null
+23:46:12 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 4d019afe-20e6-3855-af2f-6ec9d7f0b6bf
+23:46:12 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:42274]: Logged in as 'SATORO_'
+23:46:12 [INFO] [SATORO_] -> UpstreamBridge has connected
+23:46:17 [INFO] [SATORO_] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:46:17 [INFO] [SATORO_] -> UpstreamBridge has disconnected
+23:47:21 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:36146]: Connected via websocket
+23:47:21 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:36146]: Origin header is null
+23:47:22 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 4d019afe-20e6-3855-af2f-6ec9d7f0b6bf
+23:47:22 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:36146]: Logged in as 'SATORO_'
+23:47:22 [INFO] [SATORO_] -> UpstreamBridge has connected
+23:47:22 [INFO] [SATORO_] <-> ServerConnector [lobby] has connected
+23:48:00 [INFO] [SATORO_] disconnected with: §f§4Login timeout exceeded, you have been kicked from the server, please try again!
+23:48:00 [INFO] [SATORO_] -> UpstreamBridge has disconnected
+23:48:00 [INFO] [SATORO_] <-> DownstreamBridge <-> [lobby] has disconnected
+23:49:07 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:59678]: Connected via websocket
+23:49:07 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:59678]: Origin header is null
+23:49:07 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 4d019afe-20e6-3855-af2f-6ec9d7f0b6bf
+23:49:07 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:59678]: Logged in as 'SATORO_'
+23:49:07 [INFO] [SATORO_] -> UpstreamBridge has connected
+23:49:12 [INFO] [SATORO_] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:49:12 [INFO] [SATORO_] -> UpstreamBridge has disconnected
+23:49:42 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:59890]: Connected via websocket
+23:49:42 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:59890]: Origin header is null
+23:49:43 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 4d019afe-20e6-3855-af2f-6ec9d7f0b6bf
+23:49:43 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:59890]: Logged in as 'SATORO_'
+23:49:43 [INFO] [SATORO_] -> UpstreamBridge has connected
+23:49:48 [INFO] [SATORO_] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:49:48 [INFO] [SATORO_] -> UpstreamBridge has disconnected
+23:49:57 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:59744]: Connected via websocket
+23:49:57 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:59744]: Origin header is null
+23:49:57 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 4d019afe-20e6-3855-af2f-6ec9d7f0b6bf
+23:49:57 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:59744]: Logged in as 'SATORO_'
+23:49:57 [INFO] [SATORO_] -> UpstreamBridge has connected
+23:50:02 [INFO] [SATORO_] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:50:02 [INFO] [SATORO_] -> UpstreamBridge has disconnected
+23:51:06 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:41108]: Connected via websocket
+23:51:06 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:41108]: Origin header is null
+23:51:06 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 4d019afe-20e6-3855-af2f-6ec9d7f0b6bf
+23:51:06 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:41108]: Logged in as 'SATORO_'
+23:51:06 [INFO] [SATORO_] -> UpstreamBridge has connected
+23:51:06 [INFO] [SATORO_] <-> ServerConnector [lobby] has connected
+23:51:24 [INFO] [SATORO_] -> UpstreamBridge has disconnected
+23:51:24 [INFO] [SATORO_] <-> DownstreamBridge <-> [lobby] has disconnected
+23:51:30 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:57862]: Connected via websocket
+23:51:30 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:57862]: Origin header is null
+23:51:30 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 42569800-1032-3573-9854-03eb056f7649
+23:51:30 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:57862]: Logged in as 'SATORO'
+23:51:30 [INFO] [SATORO] -> UpstreamBridge has connected
+23:51:35 [INFO] [SATORO] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:51:35 [INFO] [SATORO] -> UpstreamBridge has disconnected
+23:51:38 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:40746]: Connected via websocket
+23:51:38 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:40746]: Origin header is null
+23:51:38 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 42569800-1032-3573-9854-03eb056f7649
+23:51:38 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:40746]: Logged in as 'SATORO'
+23:51:38 [INFO] [SATORO] -> UpstreamBridge has connected
+23:51:43 [INFO] [SATORO] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:51:43 [INFO] [SATORO] -> UpstreamBridge has disconnected
+23:51:48 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:49322]: Connected via websocket
+23:51:48 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:49322]: Origin header is null
+23:51:49 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 42569800-1032-3573-9854-03eb056f7649
+23:51:49 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:49322]: Logged in as 'SATORO'
+23:51:49 [INFO] [SATORO] -> UpstreamBridge has connected
+23:51:54 [INFO] [SATORO] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:51:54 [INFO] [SATORO] -> UpstreamBridge has disconnected
+23:52:01 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:56374]: Connected via websocket
+23:52:01 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:56374]: Origin header is null
+23:52:01 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 42569800-1032-3573-9854-03eb056f7649
+23:52:01 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:56374]: Logged in as 'SATORO'
+23:52:01 [INFO] [SATORO] -> UpstreamBridge has connected
+23:52:06 [INFO] [SATORO] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:52:06 [INFO] [SATORO] -> UpstreamBridge has disconnected
+23:52:19 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:38300]: Connected via websocket
+23:52:19 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:38300]: Origin header is null
+23:52:19 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 42569800-1032-3573-9854-03eb056f7649
+23:52:19 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:38300]: Logged in as 'SATORO'
+23:52:19 [INFO] [SATORO] -> UpstreamBridge has connected
+23:52:24 [INFO] [SATORO] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:52:24 [INFO] [SATORO] -> UpstreamBridge has disconnected
+23:52:57 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:51268]: Connected via websocket
+23:52:57 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:51268]: Origin header is https://eaglercraft.com
+23:52:57 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 52f93b4d-4b6f-33c2-8f86-af6f5247f77c
+23:52:57 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:51268]: Logged in as 'SJnunbe3'
+23:52:57 [INFO] [SJnunbe3] -> UpstreamBridge has connected
+23:52:57 [INFO] [SJnunbe3] <-> ServerConnector [lobby] has connected
+23:53:12 [INFO] [SJnunbe3] -> UpstreamBridge has disconnected
+23:53:12 [INFO] [SJnunbe3] <-> DownstreamBridge <-> [lobby] has disconnected
+23:53:18 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:49202]: Connected via websocket
+23:53:18 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:49202]: Origin header is https://eaglercraft.com
+23:53:19 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 52f93b4d-4b6f-33c2-8f86-af6f5247f77c
+23:53:19 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:49202]: Logged in as 'SJnunbe3'
+23:53:19 [INFO] [SJnunbe3] -> UpstreamBridge has connected
+23:53:24 [INFO] [SJnunbe3] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:53:24 [INFO] [SJnunbe3] -> UpstreamBridge has disconnected
+23:53:41 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:50834]: Connected via websocket
+23:53:41 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:50834]: Origin header is null
+23:53:41 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 42569800-1032-3573-9854-03eb056f7649
+23:53:41 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:50834]: Logged in as 'SATORO'
+23:53:41 [INFO] [SATORO] -> UpstreamBridge has connected
+23:53:46 [INFO] [SATORO] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:53:46 [INFO] [SATORO] -> UpstreamBridge has disconnected
+23:53:47 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:57598]: Connected via websocket
+23:53:47 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:57598]: Origin header is https://eaglercraft.com
+23:53:47 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 52f93b4d-4b6f-33c2-8f86-af6f5247f77c
+23:53:47 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:57598]: Logged in as 'SJnunbe3'
+23:53:47 [INFO] [SJnunbe3] -> UpstreamBridge has connected
+23:53:52 [INFO] [SJnunbe3] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:53:52 [INFO] [SJnunbe3] -> UpstreamBridge has disconnected
+23:54:13 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:48354]: Connected via websocket
+23:54:13 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:48354]: Origin header is null
+23:54:13 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 42569800-1032-3573-9854-03eb056f7649
+23:54:13 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:48354]: Logged in as 'SATORO'
+23:54:13 [INFO] [SATORO] -> UpstreamBridge has connected
+23:54:18 [INFO] [SATORO] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:54:18 [INFO] [SATORO] -> UpstreamBridge has disconnected
+23:55:01 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:35082]: Connected via websocket
+23:55:01 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:35082]: Origin header is null
+23:55:01 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 42569800-1032-3573-9854-03eb056f7649
+23:55:01 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:35082]: Logged in as 'SATORO'
+23:55:01 [INFO] [SATORO] -> UpstreamBridge has connected
+23:55:06 [INFO] [SATORO] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:55:06 [INFO] [SATORO] -> UpstreamBridge has disconnected
+23:55:46 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:39142]: Connected via websocket
+23:55:46 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:39142]: Origin header is null
+23:55:46 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 42569800-1032-3573-9854-03eb056f7649
+23:55:46 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:39142]: Logged in as 'SATORO'
+23:55:46 [INFO] [SATORO] -> UpstreamBridge has connected
+23:55:51 [INFO] [SATORO] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:55:51 [INFO] [SATORO] -> UpstreamBridge has disconnected
+23:58:23 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:60432]: Connected via websocket
+23:58:23 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:60432]: Origin header is null
+23:58:23 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 42569800-1032-3573-9854-03eb056f7649
+23:58:23 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:60432]: Logged in as 'SATORO'
+23:58:23 [INFO] [SATORO] -> UpstreamBridge has connected
+23:58:28 [INFO] [SATORO] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+23:58:28 [INFO] [SATORO] -> UpstreamBridge has disconnected
+00:05:08 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:60346]: Connected via websocket
+00:05:08 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:60346]: Origin header is null
+00:05:08 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 42569800-1032-3573-9854-03eb056f7649
+00:05:08 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:60346]: Logged in as 'SATORO'
+00:05:08 [INFO] [SATORO] -> UpstreamBridge has connected
+00:05:13 [INFO] [SATORO] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+00:05:13 [INFO] [SATORO] -> UpstreamBridge has disconnected
+00:11:56 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:35444]: Connected via websocket
+00:11:56 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:35444]: Origin header is null
+00:11:56 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 42569800-1032-3573-9854-03eb056f7649
+00:11:56 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:35444]: Logged in as 'SATORO'
+00:11:56 [INFO] [SATORO] -> UpstreamBridge has connected
+00:11:56 [INFO] [SATORO] <-> ServerConnector [lobby] has connected
+00:12:21 [INFO] [SATORO] -> UpstreamBridge has disconnected
+00:12:21 [INFO] [SATORO] <-> DownstreamBridge <-> [lobby] has disconnected
+00:12:25 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:46472]: Connected via websocket
+00:12:25 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:46472]: Origin header is null
+00:12:25 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 42569800-1032-3573-9854-03eb056f7649
+00:12:25 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:46472]: Logged in as 'SATORO'
+00:12:25 [INFO] [SATORO] -> UpstreamBridge has connected
+00:12:30 [INFO] [SATORO] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+00:12:30 [INFO] [SATORO] -> UpstreamBridge has disconnected
+00:12:35 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:56444]: Connected via websocket
+00:12:35 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:56444]: Origin header is null
+00:12:35 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 42569800-1032-3573-9854-03eb056f7649
+00:12:35 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:56444]: Logged in as 'SATORO'
+00:12:35 [INFO] [SATORO] -> UpstreamBridge has connected
+00:12:40 [INFO] [SATORO] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+00:12:40 [INFO] [SATORO] -> UpstreamBridge has disconnected
+00:15:05 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:48156]: Connected via websocket
+00:15:05 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:48156]: Origin header is null
+00:15:06 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 42569800-1032-3573-9854-03eb056f7649
+00:15:06 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:48156]: Logged in as 'SATORO'
+00:15:06 [INFO] [SATORO] -> UpstreamBridge has connected
+00:15:11 [INFO] [SATORO] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+00:15:11 [INFO] [SATORO] -> UpstreamBridge has disconnected
+00:15:42 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:33336]: Connected via websocket
+00:15:42 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:33336]: Origin header is null
+00:15:42 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 42569800-1032-3573-9854-03eb056f7649
+00:15:42 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:33336]: Logged in as 'SATORO'
+00:15:42 [INFO] [SATORO] -> UpstreamBridge has connected
+00:15:47 [INFO] [SATORO] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+00:15:47 [INFO] [SATORO] -> UpstreamBridge has disconnected
+00:16:49 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:44324]: Connected via websocket
+00:16:49 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:44324]: Origin header is null
+00:16:49 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 42569800-1032-3573-9854-03eb056f7649
+00:16:49 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:44324]: Logged in as 'SATORO'
+00:16:49 [INFO] [SATORO] -> UpstreamBridge has connected
+00:16:54 [INFO] [SATORO] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+00:16:54 [INFO] [SATORO] -> UpstreamBridge has disconnected
+00:22:23 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:33280]: Connected via websocket
+00:22:23 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:33280]: Origin header is null
+00:22:24 [WARNING] [ViaVersion] Could not find UserConnection for logging-in player 42569800-1032-3573-9854-03eb056f7649
+00:22:24 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1%0]:33280]: Logged in as 'SATORO'
+00:22:24 [INFO] [SATORO] -> UpstreamBridge has connected
+00:22:29 [INFO] [SATORO] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.ConnectTimeoutException
+00:22:29 [INFO] [SATORO] -> UpstreamBridge has disconnected
